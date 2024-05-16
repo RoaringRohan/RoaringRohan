@@ -1,5 +1,5 @@
 # 💫 About Me:
-Hey! It's Rohan here.<br><br>Projects that I'm currently working on include creating an e-commerce full-stack application and a streaming application.<br><br>I'm looking to get more into machine learning especially for use in data analytics for businesses.<br><br>Currently learning a wide variety of special software skills for my toolset.<br><br>Ask me about Blockchains, I may know a thing or two about developing them.<br><br>Fun fact! I have a personal website that I recently deployed on my own home server, check it out www.rohandatta.ca<br>
+Hey! It's Rohan here.<br><br>Projects that I'm currently working on include performing ETL processes on various datasets (through Kaggle and other Live APIs) for analysis to be presented on Power BI dashboards.<br><br>I'm looking to get more familiar with machine learning algorithms for use in data science.<br><br>Currently learning a wide variety of niche software back-end skills for my toolset.<br><br>Ask me anything about Blockchains, I'm attempting to develop one!<br><br>Fun fact! I love hanging out with the chess community and am always ready for a match so if you're looking to verse someone, message me on Chess.com! It's RoaringRohan.<br>
 
 
 ## 🌐 Socials:
