@@ -1,13 +1,9 @@
-<table>
-<tr>
-<td width="40%" valign="middle"><img src="assets/portrait.png" alt="ASCII portrait of Rohan" width="100%"></td>
-<td width="60%" valign="middle">
+<img src="assets/portrait.png" alt="ASCII portrait of Rohan" align="left" width="260">
 
-# 💫 About Me:
+### 💫 About Me:
 Hey! It's Rohan here.<br><br>Projects that I'm currently working on include performing ETL processes on various datasets (through Kaggle and other Live APIs) for analysis to be presented on Power BI dashboards.<br><br>I'm looking to get more familiar with machine learning algorithms for use in data science.<br><br>Currently learning a wide variety of niche software back-end skills for my toolset.<br><br>Ask me anything about Blockchains, I'm attempting to develop one!<br><br>Fun fact! I love hanging out with the chess community and am always ready for a match so if you're looking to verse someone, message me on Chess.com! It's RoaringRohan.<br>
-</td>
-</tr>
-</table>
+
+<br clear="left">
 
 ## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dattarohan/) 
