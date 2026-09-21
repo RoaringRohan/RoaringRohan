@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1078px" height="525px" font-size="16px">
+<style>
+@font-face { src: local('Consolas'), local('Consolas Bold'); font-family: 'ConsolasFallback'; font-display: swap; -webkit-size-adjust: 109%; size-adjust: 109%; }
+.key {fill: #953800;} .value {fill: #0a3069;} .addColor {fill: #1a7f37;} .delColor {fill: #cf222e;} .cc {fill: #c2cfde;} text, tspan {white-space: pre;}
+</style>
+<rect width="1078px" height="525px" fill="#f6f8fa" rx="15"/>
+<text x="15" y="30" fill="#24292f">
+<tspan x="15" y="30">                %%###%</tspan>
+<tspan x="15" y="50">               #**%%%%%##%%</tspan>
+<tspan x="15" y="70">              *##%@@@%#%%%%#%</tspan>
+<tspan x="15" y="90">            %%%%%#*=*#%%%@@@@@@</tspan>
+<tspan x="15" y="110">           %@@%*:   :--=+*#%@@@%</tspan>
+<tspan x="15" y="130">          %%@@*.    ...:-==+%@@@</tspan>
+<tspan x="15" y="150">          %%%@=.::--.:-++**+%@@@</tspan>
+<tspan x="15" y="170">         %%@@%**#%@%**%%@%%#%@@@@</tspan>
+<tspan x="15" y="190">       @%%%@@+=-=+++-.###****%@@@@@</tspan>
+<tspan x="15" y="210">        @@@**- .:==:.:+**++==##%@</tspan>
+<tspan x="15" y="230">          %= .  -+-.:+***+===+*%</tspan>
+<tspan x="15" y="250">           %#=  :=:..-=+#*++=#%@</tspan>
+<tspan x="15" y="270">             %=..   :=++++++*@</tspan>
+<tspan x="15" y="290">              *:--::-=+******#</tspan>
+<tspan x="15" y="310">             +%--+*########%#***##%</tspan>
+<tspan x="15" y="330">         *=: +%=:--+**####%#************#</tspan>
+<tspan x="15" y="350">     +=::....*-=-:-====+*#++*********+++====++</tspan>
+<tspan x="15" y="370">=--:::::.....+.*+:...  :#+:=--====+*+=-::.:::+</tspan>
+<tspan x="15" y="390">.:::::.......+.*@%*- .+%%-===---:-*-:....:=.=*</tspan>
+<tspan x="15" y="410">.  ......::..*-=@#%@#%@%.-+====-=*=--:::-+-.++</tspan>
+<tspan x="15" y="430">    ...::::..+#.*%%@@%*:.===---=*=-----=+#:=**</tspan>
+<tspan x="15" y="450">   ...::::::.-@*-=+++-=+-==---=*===----+*+-**+</tspan>
+<tspan x="15" y="470">:  .:::......:%%%##**#%--==-:+*====--=+*#+=+=+</tspan>
+<tspan x="15" y="490">+:..... ..    *%#%@%%%+.==-:=+======+**#%#*==+</tspan>
+<tspan x="15" y="510">=*..          +@#%@##%-:=-:=*-====++***#%#+-+*</tspan>
+</text>
+<text x="482" y="30" fill="#24292f">
+<tspan x="482" y="30">rohan@datta ————————————————————————————————————————————————</tspan>
+<tspan x="482" y="50"><tspan class="cc">. </tspan><tspan class="key">OS</tspan>:<tspan class="cc"> ....................................... </tspan><tspan class="value">Windows, Linux</tspan></tspan>
+<tspan x="482" y="70"><tspan class="cc">. </tspan><tspan class="key">Uptime</tspan>:<tspan class="cc"> ......................................... </tspan><tspan class="value">24 years</tspan></tspan>
+<tspan x="482" y="90"><tspan class="cc">. </tspan><tspan class="key">Host</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value">University of Toronto</tspan></tspan>
+<tspan x="482" y="110"><tspan class="cc">. </tspan><tspan class="key">Kernel</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value">ECE Master&#x27;s Program</tspan></tspan>
+<tspan x="482" y="130"><tspan class="cc">. </tspan><tspan class="key">IDE</tspan>:<tspan class="cc"> .............................................. </tspan><tspan class="value">VSCode</tspan></tspan>
+<tspan x="482" y="150"><tspan class="cc">. </tspan></tspan>
+<tspan x="482" y="170"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Programming</tspan>:<tspan class="cc"> .... </tspan><tspan class="value">Java, Python, JavaScript, Rust</tspan></tspan>
+<tspan x="482" y="190"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Computer</tspan>:<tspan class="cc"> ........... </tspan><tspan class="value">SQL, YAML, JSON, HTML, CSS</tspan></tspan>
+<tspan x="482" y="210"><tspan class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> .......... </tspan><tspan class="value">English, French, Hindi, Bengali</tspan></tspan>
+<tspan x="482" y="230"><tspan class="cc">. </tspan></tspan>
+<tspan x="482" y="250"><tspan class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Real</tspan>:<tspan class="cc"> ........................ </tspan><tspan class="value">Chess, Table Tennis</tspan></tspan>
+<tspan x="482" y="270"><tspan class="cc">. </tspan><tspan class="key">Hobbies</tspan>.<tspan class="key">Hardware</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">FPGA</tspan></tspan>
+<tspan x="482" y="310">- Contact ——————————————————————————————————————————————————</tspan>
+<tspan x="482" y="330"><tspan class="cc">. </tspan><tspan class="key">Email</tspan>.<tspan class="key">School</tspan>:<tspan class="cc"> ............... </tspan><tspan class="value">rohan.datta@mail.utoronto.ca</tspan></tspan>
+<tspan x="482" y="350"><tspan class="cc">. </tspan><tspan class="key">Website</tspan>:<tspan class="cc"> ................................... </tspan><tspan class="value">rohandatta.ca</tspan></tspan>
+<tspan x="482" y="370"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">dattarohan</tspan></tspan>
+<tspan x="482" y="410">- GitHub Stats —————————————————————————————————————————————</tspan>
+<tspan x="482" y="430"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> ............................. </tspan><tspan class="value" id="repos">29</tspan><tspan> {</tspan><tspan class="key">Contributed</tspan><tspan>: </tspan><tspan class="value" id="contrib">511</tspan><tspan>}</tspan></tspan>
+<tspan x="482" y="450"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value" id="commits">390</tspan></tspan>
+<tspan x="482" y="470"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> . </tspan><tspan class="value" id="loc">499,010</tspan><tspan> ( </tspan><tspan class="addColor" id="loc_add">594,039</tspan><tspan class="addColor">++</tspan><tspan>, </tspan><tspan class="delColor" id="loc_del">95,029</tspan><tspan class="delColor">--</tspan><tspan> )</tspan></tspan>
+</text>
+</svg>
