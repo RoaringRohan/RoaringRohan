@@ -24,10 +24,19 @@ LOC_EXCLUDE = {
     'RoaringRohan/data_analytics',
     'RoaringRohan/data-analytics-portfolio',
 }
+# Classroom orgs whose hundreds of assignment repos would swamp the Contributed count.
+OWNER_EXCLUDE = {'ShaimaaAliECE'}
+# The Action's token can't see org membership, so org repos are listed by hand.
+# ponytail: static list, add new org repos here (or switch to a PAT with read:org).
+ORG_REPOS = [
+    'kang-lee-lab/long_to_short_dass', 'kang-lee-lab/lab-surveys',
+    'WesternAlgo/Sigtech-Prj1', 'WesternAlgo/Sent-Analysis-Prj2-Twitter', 'WesternAlgo/Satellite-Imagery',
+    'WesternAlgo/OptionsPricing', 'WesternAlgo/SovereignDebtDefault',
+]
 
 THEMES = {
-    'dark_mode.svg':  dict(bg='#161b22', text='#c9d1d9', key='#ffa657', value='#a5d6ff', add='#3fb950', dele='#f85149', cc='#616e7f'),
-    'light_mode.svg': dict(bg='#f6f8fa', text='#24292f', key='#953800', value='#0a3069', add='#1a7f37', dele='#cf222e', cc='#c2cfde'),
+    'dark_mode.svg':  dict(ascii='ascii_dark.txt', bg='#161b22', text='#c9d1d9', key='#ffa657', value='#a5d6ff', add='#3fb950', dele='#f85149', cc='#616e7f'),
+    'light_mode.svg': dict(ascii='ascii_light.txt', bg='#f6f8fa', text='#24292f', key='#953800', value='#0a3069', add='#1a7f37', dele='#cf222e', cc='#c2cfde'),
 }
 
 
@@ -94,7 +103,9 @@ def my_history(repo, user_id):
 
 def fetch_stats():
     user_id, owned, _ = repos(['OWNER'])
-    _, contributed, names = repos(['OWNER', 'COLLABORATOR', 'ORGANIZATION_MEMBER'])
+    _, _, names = repos(['OWNER', 'COLLABORATOR'])
+    names = sorted({r for r in names + ORG_REPOS if r.split('/')[0] not in OWNER_EXCLUDE})
+    contributed = len(names)
     commits = {}  # keyed by oid, so a commit living in a fork and its parent counts once
     with ThreadPoolExecutor(8) as pool:  # 8 keeps under GitHub's secondary rate limit
         for repo, repo_commits in zip(names, pool.map(lambda r: my_history(r, user_id), names)):
@@ -173,7 +184,9 @@ def render(theme, ascii_rows, info):
     info_x = 15 + round(ascii_cols * CHAR_W) + 25
     width = info_x + round(info_cols * CHAR_W) + 20
     height = max(len(ascii_rows), len(info)) * LINE_H + 25
-    ascii_y = 30 + (len(info) - len(ascii_rows)) * LINE_H // 2 if len(info) > len(ascii_rows) else 30
+    rows = max(len(ascii_rows), len(info))
+    ascii_y = 30 + (rows - len(ascii_rows)) // 2 * LINE_H  # the shorter column is centered
+    info_y = 30 + (rows - len(info)) // 2 * LINE_H
     t = theme
     out = [
         "<?xml version='1.0' encoding='UTF-8'?>",
@@ -189,8 +202,8 @@ def render(theme, ascii_rows, info):
         f'<text x="15" y="{ascii_y}" fill="{t["text"]}">',
         *(f'<tspan x="15" y="{ascii_y + i * LINE_H}">{escape(row)}</tspan>' for i, row in enumerate(ascii_rows)),
         '</text>',
-        f'<text x="{info_x}" y="30" fill="{t["text"]}">',
-        *(f'<tspan x="{info_x}" y="{30 + i * LINE_H}">{line}</tspan>' for i, line in enumerate(info) if line),
+        f'<text x="{info_x}" y="{info_y}" fill="{t["text"]}">',
+        *(f'<tspan x="{info_x}" y="{info_y + i * LINE_H}">{line}</tspan>' for i, line in enumerate(info) if line),
         '</text>',
         '</svg>',
     ]
@@ -200,9 +213,9 @@ def render(theme, ascii_rows, info):
 if __name__ == '__main__':
     stats = fetch_stats() if TOKEN else stats_from_svg()
     print(stats)
-    with open('ascii.txt', encoding='utf-8') as f:
-        ascii_rows = f.read().rstrip('\n').split('\n')
     info = info_lines(stats)
     for filename, theme in THEMES.items():
+        with open(theme['ascii'], encoding='utf-8') as f:
+            ascii_rows = f.read().rstrip('\n').split('\n')
         with open(filename, 'w', encoding='utf-8', newline='\n') as f:
             f.write(render(theme, ascii_rows, info))
