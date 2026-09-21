@@ -57,7 +57,7 @@
 <tspan x="578" y="430"><tspan class="cc">. </tspan><tspan class="key">LinkedIn</tspan>:<tspan class="cc"> ..................................... </tspan><tspan class="value">dattarohan</tspan></tspan>
 <tspan x="578" y="470">- GitHub Stats —————————————————————————————————————————————</tspan>
 <tspan x="578" y="490"><tspan class="cc">. </tspan><tspan class="key">Repos</tspan>:<tspan class="cc"> .............................. </tspan><tspan class="value" id="repos">28</tspan><tspan> {</tspan><tspan class="key">Contributed</tspan><tspan>: </tspan><tspan class="value" id="contrib">46</tspan><tspan>}</tspan></tspan>
-<tspan x="578" y="510"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value" id="commits">346</tspan></tspan>
-<tspan x="578" y="530"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> . </tspan><tspan class="value" id="loc">514,314</tspan><tspan> ( </tspan><tspan class="addColor" id="loc_add">542,845</tspan><tspan class="addColor">++</tspan><tspan>, </tspan><tspan class="delColor" id="loc_del">28,531</tspan><tspan class="delColor">--</tspan><tspan> )</tspan></tspan>
+<tspan x="578" y="510"><tspan class="cc">. </tspan><tspan class="key">Commits</tspan>:<tspan class="cc"> ............................................. </tspan><tspan class="value" id="commits">347</tspan></tspan>
+<tspan x="578" y="530"><tspan class="cc">. </tspan><tspan class="key">Lines of Code on GitHub</tspan>:<tspan class="cc"> . </tspan><tspan class="value" id="loc">514,372</tspan><tspan> ( </tspan><tspan class="addColor" id="loc_add">543,034</tspan><tspan class="addColor">++</tspan><tspan>, </tspan><tspan class="delColor" id="loc_del">28,662</tspan><tspan class="delColor">--</tspan><tspan> )</tspan></tspan>
 </text>
 </svg>
